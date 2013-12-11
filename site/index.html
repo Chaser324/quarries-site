@@ -28,7 +28,7 @@
 </head>
 <body>
     <div id="header">
-        <div id="header-overlay"></div>
+        <div class="section-overlay"></div>
 
         <div class="container">
 
@@ -41,13 +41,13 @@
 
             <div class="row">
                 <div id="header-nav" class="col-lg-10 col-lg-offset-1">
-                    <a href="#" class="btn btn-default">About</a>
-                    <a href="#" class="btn btn-default">Blog</a>
-                    <a href="#" class="btn btn-default">Screens</a>
-                    <a href="#" class="btn btn-default">Videos</a>
-                    <a href="#" class="btn btn-default"><strong><i class="fa fa-cloud-download"></i> Download Now!</strong></a>
-                    <a href="#" class="btn btn-default pull-right"><i class="fa fa-twitter"></i> Twitter</a>
-                    <a href="#" class="btn btn-default pull-right"><i class="fa fa-gamepad"></i> IndieDB</a>
+                    <a href="#about" class="btn btn-default">About</a>
+                    <a href="#videos" class="btn btn-default">Videos</a>
+                    <a href="#screens" class="btn btn-default">Screens</a>
+                    <a href="#blog" class="btn btn-default">Blog</a>
+                    <a href="http://www.indiedb.com/games/quarries-of-scred/downloads" class="btn btn-default download-link" target="_blank"><strong><i class="fa fa-cloud-download"></i> Download Now!</strong></a>
+                    <a href="http://twitter.com/darkestkale" class="btn btn-default pull-right"><i class="fa fa-twitter"></i> Twitter</a>
+                    <a href="http://www.indiedb.com/games/quarries-of-scred" class="btn btn-default pull-right"><i class="fa fa-gamepad"></i> IndieDB</a>
                 </div>
             </div>
 
@@ -55,23 +55,147 @@
                 <div id="header-image" class="col-lg-10 col-lg-offset-1">
                     <img class="crate" src="assets/img/box/crate.png" />
                     <img class="miner" src="assets/img/box/miner.png" />
-                    <img class="monster-1" src="assets/img/box/monster-1.png" />
-                    <img class="monster-2" src="assets/img/box/monster-2.png" />
-                    <img class="monster-3" src="assets/img/box/monster-3.png" />
-                    <img class="monster-4" src="assets/img/box/monster-4.png" />
-                    <img class="stone-1" src="assets/img/box/stone-1.png" />
-                    <img class="stone-2" src="assets/img/box/stone-2.png" />
-                    <img class="stone-3" src="assets/img/box/stone-3.png" />
+                    <img class="monster-1 monster" src="assets/img/box/monster-1.png" />
+                    <img class="monster-2 monster" src="assets/img/box/monster-2.png" />
+                    <img class="monster-3 monster" src="assets/img/box/monster-3.png" />
+                    <img class="monster-4 monster" src="assets/img/box/monster-4.png" />
+                    <img class="stone-1 stone" src="assets/img/box/stone-1.png" />
+                    <img class="stone-2 stone" src="assets/img/box/stone-2.png" />
+                    <img class="stone-3 stone" src="assets/img/box/stone-3.png" />
                 </div>
             </div>
 
         </div>
     </div>
 
+    <div id="about">
+        <div class="section-overlay"></div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 col-sm-offset-1">
+                    <img class="img-responsive" src="assets/img/screens/4.png" />
+                </div>
+                <div class="col-sm-5">
+                    <p><strong>Quarries of Scred</strong> harkens back to a simple arcade style - dig down, collect different minerals and dirt ore and return to cash in! Strategic use of lasers, land mines and self-destruction will ensure access to hard to reach areas, though care must be taken at all times within... the Quarries of Scred!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="videos">
+        <div class="section-overlay"></div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 col-sm-offset-1">
+                    <h2>Videos</h2>
+                    <ul>
+                        <li><a href="javascript:void(0)" onclick="loadytvideo('BwztLrc_hpY');">First Look by @TRSCP</a></li>
+                        <li><a href="javascript:void(0)" onclick="loadytvideo('nc4V1j-rvq0');">Let's Play by @TRSCP</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-7">
+                    <div id="vid-div" class="videoWrapper">
+                        <div id="youtube"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="screens">
+        <div class="section-overlay"></div>
+
+        <div class="container">
+            <div class="row clearfix">
+                <a class="left carousel-control" href="#carousel" data-slide="prev">
+                    <i class="left fa fa-caret-square-o-left"></i>
+                </a>
+                <div class="col-sm-8 col-sm-offset-2">
+                    <div id="carousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <!-- <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol> -->
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                              <img class="img-responsive" src="assets/img/screens/1.png" />
+                            </div>
+                            <div class="item">
+                              <img class="img-responsive" src="assets/img/screens/2.png" />
+                            </div>
+                            <div class="item">
+                              <img class="img-responsive" src="assets/img/screens/3.png" />
+                            </div>
+                            <div class="item">
+                              <img class="img-responsive" src="assets/img/screens/4.png" />
+                            </div>
+                            <div class="item">
+                              <img class="img-responsive" src="assets/img/screens/5.png" />
+                            </div>
+                            <div class="item">
+                              <img class="img-responsive" src="assets/img/screens/6.png" />
+                            </div>
+                            <div class="item">
+                              <img class="img-responsive" src="assets/img/screens/7.png" />
+                            </div>
+                            <div class="item">
+                              <img class="img-responsive" src="assets/img/screens/8.png" />
+                            </div>
+                            <div class="item">
+                              <img class="img-responsive" src="assets/img/screens/9.png" />
+                            </div>
+                            <div class="item">
+                              <img class="img-responsive" src="assets/img/screens/10.png" />
+                            </div>
+                            <div class="item">
+                              <img class="img-responsive" src="assets/img/screens/11.png" />
+                            </div>
+                            <div class="item">
+                              <img class="img-responsive" src="assets/img/screens/12.png" />
+                            </div>
+                            <div class="item">
+                              <img class="img-responsive" src="assets/img/screens/13.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="right carousel-control" href="#carousel" data-slide="next">
+                    <i class="right fa fa-caret-square-o-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="blog">
+        <div class="section-overlay"></div>
+
+        <div class="container">
+            <div class="row">
+                <div id="blog-header" class="col-sm-8 col-sm-offset-2">
+                    <h1>Development Blog</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div id="blog-div" class="col-sm-8 col-sm-offset-2">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+    </div>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.4.0/moment.min.js"></script>
     <script src="assets/js/app.js"></script>
 </body>
 </html>
+
