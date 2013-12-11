@@ -1,0 +1,121 @@
+
+#header {
+    position: relative;
+    background: #bc4638;
+}
+
+#header-text {
+    text-align: center;
+
+    h1 {
+        color: #eee;
+        text-transform: uppercase;
+        font-family: 'Righteous', sans-serif;
+        font-size: 80px;
+
+        small {
+            color: #eee;
+            font-family: 'Righteous', sans-serif;
+            font-size: 35px;
+            line-height: 50px;
+            vertical-align: super;
+        }
+    }
+    h2 {
+        color: #d5d319;
+        text-transform: uppercase;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 700;
+        margin: 0 0 15px;
+
+
+        small {
+            color: #d5d319;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 15px;
+            vertical-align: super;
+        }
+    }
+}
+
+#header-nav {
+    margin-bottom: 15px;
+    .btn.btn-default {
+        background: #d5d319;
+        color: #68321a;
+        border-color: darken(#d5d319, 10%);
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+
+        &.pull-right {
+            margin-left: 5px;
+        }
+
+        &:hover{
+            background: lighten(#d5d319,25%);
+            color: lighten(#68321a,10%);
+        }
+    }
+}
+
+#header-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    pointer-events: none;
+
+    background-image: url(../img/grey_bk.jpg);
+    background-size: cover;
+
+    .opacity(0.25);
+    z-index: 1000;
+}
+
+#header-image {
+    background: #68321a;
+    border: 12px solid #d5d319;
+    border-radius: 10px;
+    overflow: visible;
+
+    height: 700px;
+
+    margin-bottom: 50px;
+
+    img {
+        position: absolute;
+
+        &.crate {
+            bottom: -15px;
+            left: 50%;
+        }
+
+        &.miner {
+            bottom: -5px;
+            left: -15px;
+        }
+
+        &.monster-1 {
+            bottom: 200px;
+            right: 20px;
+        }
+
+        &.monster-2 {
+            bottom: 200px;
+            right: 20px;
+        }
+
+        &.monster-3 {
+            bottom: 200px;
+            right: 20px;
+        }
+
+        &.monster-4 {
+            bottom: 200px;
+            right: 20px;
+        }
+    }
+}
