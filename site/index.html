@@ -42,14 +42,20 @@
             </div>
 
             <div class="row">
-                <div id="header-nav" class="col-lg-10 col-lg-offset-1">
+                <div id="" class="header-nav col-lg-10 col-lg-offset-1">
                     <a href="#about" class="btn btn-default">About</a>
                     <a href="#videos" class="btn btn-default">Videos</a>
                     <a href="#screens" class="btn btn-default">Screens</a>
                     <a href="#blog" class="btn btn-default">Blog</a>
-                    <a href="http://www.indiedb.com/games/quarries-of-scred/downloads" class="btn btn-default download-link" target="_blank"><strong><i class="fa fa-cloud-download"></i> Download Now!</strong></a>
+                    <a href="#support" class="btn btn-default">Support</strong></a>
                     <a href="http://twitter.com/darkestkale" class="btn btn-default pull-right"><i class="fa fa-twitter"></i> Twitter</a>
                     <a href="http://www.indiedb.com/games/quarries-of-scred" class="btn btn-default pull-right"><i class="fa fa-gamepad"></i> IndieDB</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="header-nav col-lg-10 col-lg-offset-1">
+                    <a href="http://darkestkale.itch.io/quarries-of-scred" class="btn btn-default download-link" style="width: 100%; padding: 15px 10px; font-size: 24px;" target="_blank"><strong><i class="fa fa-cloud-download"></i> Download Now!</strong></a>
                 </div>
             </div>
 
@@ -82,6 +88,12 @@
                     <p><strong>Quarries of Scred</strong> harkens back to a simple arcade style - dig down, collect different minerals and dirt ore and return to cash in! Strategic use of lasers, land mines and self-destruction will ensure access to hard to reach areas, though care must be taken at all times within... the Quarries of Scred!</p>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-sm-12 itch-widget">
+                    <iframe class="hidden-xs" src="http://itch.io/embed/874?dark=true&linkback=true" width="552" height="167" scrolling="no" frameborder="0"></iframe>
+                    <a href="http://darkestkale.itch.io/quarries-of-scred" class="btn btn-default visible-xs"><strong>Available on itch.io!</strong></a>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -90,16 +102,16 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-lg-offset-1 col-sm-4">
+                <div class="col-sm-8 col-sm-offset-2">
                     <h2>Videos</h2>
-                    <ul>
-                        <li><a href="javascript:void(0)" onclick="loadytvideo('BwztLrc_hpY');">First Look by @TRSCP</a></li>
-                        <li><a href="javascript:void(0)" onclick="loadytvideo('nc4V1j-rvq0');">Let's Play by @TRSCP</a></li>
-                    </ul>
                 </div>
-                <div class="col-lg-7 col-sm-8">
+            </div>
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
                     <div id="vid-div" class="videoWrapper">
-                        <div id="youtube"></div>
+                        <div id="youtube">
+                            <iframe id="youtube" src="//www.youtube.com/embed/videoseries?list=PLUxBqv5MzmVlbq7aYAGJRy7l8gwNFkoS_" scrolling="no" frameborder="0"></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -190,6 +202,19 @@
         </div>
     </div>
 
+    <div id="support">
+        <div class="section-overlay"></div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 col-sm-12 text-center">
+                    <h1>Support</h1>
+                    <p>For support questions, contact <a href="mailto:quarriesofscred@gmail.com">QuarriesOfScred@gmail.com</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div id="footer">
         <div class="section-overlay"></div>
 
@@ -213,4 +238,3 @@
     <script src="assets/js/app.js"></script>
 </body>
 </html>
-

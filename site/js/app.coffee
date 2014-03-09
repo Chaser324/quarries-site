@@ -73,17 +73,17 @@ animStone = (stone) ->
 
 $(window).load ->
     initBlogFeed()
-    initDownloadFeed()
+    # initDownloadFeed()
 
-    if not iOS
-        params = { allowScriptAccess: "always" };
-        atts = { id: "myytplayer" };
-        swfobject.embedSWF("http://www.youtube.com/v/nc4V1j-rvq0?enablejsapi=1&playerapiid=ytplayer&version=3", 
-                            "youtube", "425", "356", "8", null, null, params, atts);
-    else
-        $('#vid-div').css 'z-index', 1001
-        url = '//www.youtube.com/embed/' + 'nc4V1j-rvq0'
-        $('#youtube').replaceWith '<iframe id="' + 'youtube' + '" src="' + url + '" scrolling="no" frameborder="0"></iframe>'
+    # if not iOS
+    #     params = { allowScriptAccess: "always" };
+    #     atts = { id: "myytplayer" };
+    #     swfobject.embedSWF("http://www.youtube.com/v/nc4V1j-rvq0?enablejsapi=1&playerapiid=ytplayer&version=3", 
+    #                         "youtube", "425", "356", "8", null, null, params, atts);
+    # else
+    #     $('#vid-div').css 'z-index', 1001
+    #     url = '//www.youtube.com/embed/' + 'nc4V1j-rvq0'
+    #     $('#youtube').replaceWith '<iframe id="' + 'youtube' + '" src="' + url + '" scrolling="no" frameborder="0"></iframe>'
 
     $('.monster').each ->
         animMonster(this)
